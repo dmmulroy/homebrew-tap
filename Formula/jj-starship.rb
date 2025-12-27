@@ -1,8 +1,8 @@
 class JjStarship < Formula
   desc "Unified Starship prompt module for Git and Jujutsu repositories"
   homepage "https://github.com/dmmulroy/jj-starship"
-  url "https://github.com/dmmulroy/jj-starship/archive/refs/tags/v0.3.2.tar.gz"
-  sha256 "f6a1dd76afaf140c5a41cdab29f52875910d697a3adcb30c6bcfab19759ef9fe"
+  url "https://github.com/dmmulroy/jj-starship/archive/refs/tags/v0.3.3.tar.gz"
+  sha256 "b959f560b136a8a714dbcfc1584ef7aa5f2ded7b0a2d87d0575dd3fc406b96b4"
   license "MIT"
 
   depends_on "rust" => :build
