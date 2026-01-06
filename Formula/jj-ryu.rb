@@ -1,8 +1,8 @@
 class JjRyu < Formula
   desc "Stacked PRs for Jujutsu with GitHub/GitLab support"
   homepage "https://github.com/dmmulroy/jj-ryu"
-  url "https://github.com/dmmulroy/jj-ryu/archive/refs/tags/v0.0.1-alpha.6.tar.gz"
-  sha256 "97438e2e4ab90d888945088bde128109e35421edb8662e8f83875b38724e5d5d"
+  url "https://github.com/dmmulroy/jj-ryu/archive/refs/tags/v0.0.1-alpha.7.tar.gz"
+  sha256 "28fa01312febc837920429d257dc18dde72b6814fe810ee8091170bd02c276f2"
   license "MIT"
 
   depends_on "rust" => :build
