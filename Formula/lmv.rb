@@ -1,26 +1,26 @@
 class Lmv < Formula
   desc "Local Markdown Viewer - view and edit markdown files in your browser"
   homepage "https://github.com/dmmulroy/lmv"
-  version "v0.2.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dmmulroy/lmv/releases/download/vv0.2.0/lmv-darwin-arm64.tar.gz"
-      sha256 "e8a851fdada9f78e1de06434a39e2f4216ed9a2932a781e2f3f221c978cfc839"
+      url "https://github.com/dmmulroy/lmv/releases/download/v0.2.0/lmv-darwin-arm64.tar.gz"
+      sha256 "eb323e1ada1c3d17cb3bad5f5bc95d39f37aa6f35bb322d168cd42170b88644f"
     else
-      url "https://github.com/dmmulroy/lmv/releases/download/vv0.2.0/lmv-darwin-x64.tar.gz"
-      sha256 "e9f5c3805ba101d08f3ecaf8e568ae5ee16777b7d12d0e62adb3fbe003c9f831"
+      url "https://github.com/dmmulroy/lmv/releases/download/v0.2.0/lmv-darwin-x64.tar.gz"
+      sha256 "9fda204dcce96b3ca7098e6383c9b3008ddcc41cf33ddda732522ceca4968bbb"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/dmmulroy/lmv/releases/download/vv0.2.0/lmv-linux-arm64.tar.gz"
-      sha256 "4a040cce7d680bf6ef5296e0c15d1f806f3d50fde3cdf48efab9e41208355028"
+      url "https://github.com/dmmulroy/lmv/releases/download/v0.2.0/lmv-linux-arm64.tar.gz"
+      sha256 "7ecd3d3589dc99e3565055f57186334b2d0f7fba5b93da5427921bbff664c6aa"
     else
-      url "https://github.com/dmmulroy/lmv/releases/download/vv0.2.0/lmv-linux-x64.tar.gz"
-      sha256 "64c2ad8c4fa8e0d571f166952469f930593e380037cfcd88a5b39566c4f62117"
+      url "https://github.com/dmmulroy/lmv/releases/download/v0.2.0/lmv-linux-x64.tar.gz"
+      sha256 "5265add2acbaaa4ee8b504e6258b3164ad4233eb03c942936375d1c81a650a35"
     end
   end
 
