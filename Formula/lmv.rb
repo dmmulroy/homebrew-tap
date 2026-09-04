@@ -1,7 +1,6 @@
 class Lmv < Formula
   desc "Local Markdown Viewer - view and edit markdown files in your browser"
   homepage "https://github.com/dmmulroy/lmv"
-  version "0.2.0"
   license "MIT"
 
   on_macos do
